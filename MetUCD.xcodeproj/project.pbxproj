@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AA08478D2B0E2993005F961A /* MetUCDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08478C2B0E2993005F961A /* MetUCDApp.swift */; };
-		AA08478F2B0E2993005F961A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08478E2B0E2993005F961A /* ContentView.swift */; };
+		AA08478F2B0E2993005F961A /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08478E2B0E2993005F961A /* WeatherView.swift */; };
 		AA0847912B0E2994005F961A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0847902B0E2994005F961A /* Assets.xcassets */; };
 		AA0847942B0E2994005F961A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0847932B0E2994005F961A /* Preview Assets.xcassets */; };
 		AA08479E2B0E2995005F961A /* MetUCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08479D2B0E2995005F961A /* MetUCDTests.swift */; };
 		AA0847A82B0E2995005F961A /* MetUCDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0847A72B0E2995005F961A /* MetUCDUITests.swift */; };
 		AA0847AA2B0E2995005F961A /* MetUCDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0847A92B0E2995005F961A /* MetUCDUITestsLaunchTests.swift */; };
+		AA0847B92B0E2E6D005F961A /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0847B82B0E2E6D005F961A /* WeatherManager.swift */; };
+		AA0847BB2B0E393D005F961A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0847BA2B0E393D005F961A /* ModelData.swift */; };
+		AA87B2922B0E4F1700B95C26 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = AA87B2912B0E4F1700B95C26 /* weatherData.json */; };
+		AA87B2942B0E608600B95C26 /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87B2932B0E608600B95C26 /* TempView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		AA0847892B0E2993005F961A /* MetUCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetUCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA08478C2B0E2993005F961A /* MetUCDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetUCDApp.swift; sourceTree = "<group>"; };
-		AA08478E2B0E2993005F961A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA08478E2B0E2993005F961A /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		AA0847902B0E2994005F961A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0847932B0E2994005F961A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA0847992B0E2995005F961A /* MetUCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetUCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		AA0847A32B0E2995005F961A /* MetUCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetUCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0847A72B0E2995005F961A /* MetUCDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetUCDUITests.swift; sourceTree = "<group>"; };
 		AA0847A92B0E2995005F961A /* MetUCDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetUCDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA0847B82B0E2E6D005F961A /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		AA0847BA2B0E393D005F961A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		AA87B2912B0E4F1700B95C26 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		AA87B2932B0E608600B95C26 /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				AA08478C2B0E2993005F961A /* MetUCDApp.swift */,
-				AA08478E2B0E2993005F961A /* ContentView.swift */,
+				AA08478E2B0E2993005F961A /* WeatherView.swift */,
+				AA0847B82B0E2E6D005F961A /* WeatherManager.swift */,
+				AA87B2932B0E608600B95C26 /* TempView.swift */,
 				AA0847902B0E2994005F961A /* Assets.xcassets */,
 				AA0847922B0E2994005F961A /* Preview Content */,
 			);
@@ -106,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				AA0847932B0E2994005F961A /* Preview Assets.xcassets */,
+				AA0847BA2B0E393D005F961A /* ModelData.swift */,
+				AA87B2912B0E4F1700B95C26 /* weatherData.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0847942B0E2994005F961A /* Preview Assets.xcassets in Resources */,
+				AA87B2922B0E4F1700B95C26 /* weatherData.json in Resources */,
 				AA0847912B0E2994005F961A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA08478F2B0E2993005F961A /* ContentView.swift in Sources */,
+				AA08478F2B0E2993005F961A /* WeatherView.swift in Sources */,
+				AA0847B92B0E2E6D005F961A /* WeatherManager.swift in Sources */,
+				AA87B2942B0E608600B95C26 /* TempView.swift in Sources */,
+				AA0847BB2B0E393D005F961A /* ModelData.swift in Sources */,
 				AA08478D2B0E2993005F961A /* MetUCDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
