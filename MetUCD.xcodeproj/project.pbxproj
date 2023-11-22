@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA08478D2B0E2993005F961A /* MetUCDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08478C2B0E2993005F961A /* MetUCDApp.swift */; };
+		AA08478F2B0E2993005F961A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08478E2B0E2993005F961A /* ContentView.swift */; };
+		AA0847912B0E2994005F961A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0847902B0E2994005F961A /* Assets.xcassets */; };
+		AA0847942B0E2994005F961A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0847932B0E2994005F961A /* Preview Assets.xcassets */; };
+		AA08479E2B0E2995005F961A /* MetUCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08479D2B0E2995005F961A /* MetUCDTests.swift */; };
+		AA0847A82B0E2995005F961A /* MetUCDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0847A72B0E2995005F961A /* MetUCDUITests.swift */; };
+		AA0847AA2B0E2995005F961A /* MetUCDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0847A92B0E2995005F961A /* MetUCDUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA08479A2B0E2995005F961A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0847812B0E2993005F961A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0847882B0E2993005F961A;
+			remoteInfo = MetUCD;
+		};
+		AA0847A42B0E2995005F961A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0847812B0E2993005F961A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0847882B0E2993005F961A;
+			remoteInfo = MetUCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA0847892B0E2993005F961A /* MetUCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetUCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA08478C2B0E2993005F961A /* MetUCDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetUCDApp.swift; sourceTree = "<group>"; };
+		AA08478E2B0E2993005F961A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA0847902B0E2994005F961A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0847932B0E2994005F961A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA0847992B0E2995005F961A /* MetUCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetUCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA08479D2B0E2995005F961A /* MetUCDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetUCDTests.swift; sourceTree = "<group>"; };
+		AA0847A32B0E2995005F961A /* MetUCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetUCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0847A72B0E2995005F961A /* MetUCDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetUCDUITests.swift; sourceTree = "<group>"; };
+		AA0847A92B0E2995005F961A /* MetUCDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetUCDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0847862B0E2993005F961A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0847962B0E2995005F961A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0847A02B0E2995005F961A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0847802B0E2993005F961A = {
+			isa = PBXGroup;
+			children = (
+				AA08478B2B0E2993005F961A /* MetUCD */,
+				AA08479C2B0E2995005F961A /* MetUCDTests */,
+				AA0847A62B0E2995005F961A /* MetUCDUITests */,
+				AA08478A2B0E2993005F961A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA08478A2B0E2993005F961A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0847892B0E2993005F961A /* MetUCD.app */,
+				AA0847992B0E2995005F961A /* MetUCDTests.xctest */,
+				AA0847A32B0E2995005F961A /* MetUCDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA08478B2B0E2993005F961A /* MetUCD */ = {
+			isa = PBXGroup;
+			children = (
+				AA08478C2B0E2993005F961A /* MetUCDApp.swift */,
+				AA08478E2B0E2993005F961A /* ContentView.swift */,
+				AA0847902B0E2994005F961A /* Assets.xcassets */,
+				AA0847922B0E2994005F961A /* Preview Content */,
+			);
+			path = MetUCD;
+			sourceTree = "<group>";
+		};
+		AA0847922B0E2994005F961A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA0847932B0E2994005F961A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA08479C2B0E2995005F961A /* MetUCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA08479D2B0E2995005F961A /* MetUCDTests.swift */,
+			);
+			path = MetUCDTests;
+			sourceTree = "<group>";
+		};
+		AA0847A62B0E2995005F961A /* MetUCDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA0847A72B0E2995005F961A /* MetUCDUITests.swift */,
+				AA0847A92B0E2995005F961A /* MetUCDUITestsLaunchTests.swift */,
+			);
+			path = MetUCDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0847882B0E2993005F961A /* MetUCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0847AD2B0E2995005F961A /* Build configuration list for PBXNativeTarget "MetUCD" */;
+			buildPhases = (
+				AA0847852B0E2993005F961A /* Sources */,
+				AA0847862B0E2993005F961A /* Frameworks */,
+				AA0847872B0E2993005F961A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetUCD;
+			productName = MetUCD;
+			productReference = AA0847892B0E2993005F961A /* MetUCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0847982B0E2995005F961A /* MetUCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0847B02B0E2995005F961A /* Build configuration list for PBXNativeTarget "MetUCDTests" */;
+			buildPhases = (
+				AA0847952B0E2995005F961A /* Sources */,
+				AA0847962B0E2995005F961A /* Frameworks */,
+				AA0847972B0E2995005F961A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA08479B2B0E2995005F961A /* PBXTargetDependency */,
+			);
+			name = MetUCDTests;
+			productName = MetUCDTests;
+			productReference = AA0847992B0E2995005F961A /* MetUCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA0847A22B0E2995005F961A /* MetUCDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0847B32B0E2995005F961A /* Build configuration list for PBXNativeTarget "MetUCDUITests" */;
+			buildPhases = (
+				AA08479F2B0E2995005F961A /* Sources */,
+				AA0847A02B0E2995005F961A /* Frameworks */,
+				AA0847A12B0E2995005F961A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0847A52B0E2995005F961A /* PBXTargetDependency */,
+			);
+			name = MetUCDUITests;
+			productName = MetUCDUITests;
+			productReference = AA0847A32B0E2995005F961A /* MetUCDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0847812B0E2993005F961A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA0847882B0E2993005F961A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					AA0847982B0E2995005F961A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = AA0847882B0E2993005F961A;
+					};
+					AA0847A22B0E2995005F961A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = AA0847882B0E2993005F961A;
+					};
+				};
+			};
+			buildConfigurationList = AA0847842B0E2993005F961A /* Build configuration list for PBXProject "MetUCD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0847802B0E2993005F961A;
+			productRefGroup = AA08478A2B0E2993005F961A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0847882B0E2993005F961A /* MetUCD */,
+				AA0847982B0E2995005F961A /* MetUCDTests */,
+				AA0847A22B0E2995005F961A /* MetUCDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0847872B0E2993005F961A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0847942B0E2994005F961A /* Preview Assets.xcassets in Resources */,
+				AA0847912B0E2994005F961A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0847972B0E2995005F961A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0847A12B0E2995005F961A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0847852B0E2993005F961A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA08478F2B0E2993005F961A /* ContentView.swift in Sources */,
+				AA08478D2B0E2993005F961A /* MetUCDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0847952B0E2995005F961A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA08479E2B0E2995005F961A /* MetUCDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA08479F2B0E2995005F961A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0847AA2B0E2995005F961A /* MetUCDUITestsLaunchTests.swift in Sources */,
+				AA0847A82B0E2995005F961A /* MetUCDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA08479B2B0E2995005F961A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0847882B0E2993005F961A /* MetUCD */;
+			targetProxy = AA08479A2B0E2995005F961A /* PBXContainerItemProxy */;
+		};
+		AA0847A52B0E2995005F961A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0847882B0E2993005F961A /* MetUCD */;
+			targetProxy = AA0847A42B0E2995005F961A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0847AB2B0E2995005F961A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0847AC2B0E2995005F961A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0847AE2B0E2995005F961A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetUCD/Preview Content\"";
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205800.MetUCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0847AF2B0E2995005F961A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetUCD/Preview Content\"";
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205800.MetUCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0847B12B0E2995005F961A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205800.MetUCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetUCD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetUCD";
+			};
+			name = Debug;
+		};
+		AA0847B22B0E2995005F961A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205800.MetUCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetUCD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MetUCD";
+			};
+			name = Release;
+		};
+		AA0847B42B0E2995005F961A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205800.MetUCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetUCD;
+			};
+			name = Debug;
+		};
+		AA0847B52B0E2995005F961A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF54H898ZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22205800.MetUCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetUCD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0847842B0E2993005F961A /* Build configuration list for PBXProject "MetUCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0847AB2B0E2995005F961A /* Debug */,
+				AA0847AC2B0E2995005F961A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0847AD2B0E2995005F961A /* Build configuration list for PBXNativeTarget "MetUCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0847AE2B0E2995005F961A /* Debug */,
+				AA0847AF2B0E2995005F961A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0847B02B0E2995005F961A /* Build configuration list for PBXNativeTarget "MetUCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0847B12B0E2995005F961A /* Debug */,
+				AA0847B22B0E2995005F961A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0847B32B0E2995005F961A /* Build configuration list for PBXNativeTarget "MetUCDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0847B42B0E2995005F961A /* Debug */,
+				AA0847B52B0E2995005F961A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0847812B0E2993005F961A /* Project object */;
+}
